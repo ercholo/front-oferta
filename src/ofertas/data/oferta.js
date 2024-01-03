@@ -3,7 +3,7 @@ export const ofertas = [
         'id': 1,
         'titulo': 'Historias',
         'descripcion': 'Comparativa de historias de IG',
-        'imagen': '/imagenes/1.jpeg',
+        'imagen': '/src/imagenes/1.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Historias',
@@ -22,7 +22,7 @@ export const ofertas = [
         'id': 2,
         'titulo': 'Hígado',
         'descripcion': 'El hígado quiere awita',
-        'imagen': `/public/imagenes/2.jpeg`,
+        'imagen': 'src/imagenes/2.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Awita',
@@ -41,7 +41,7 @@ export const ofertas = [
         'id': 3,
         'titulo': 'Time CAP',
         'descripcion': 'Si tienes huevos lo metes en el tiempo',
-        'imagen': `/public/imagenes/3.jpeg`,
+        'imagen': 'src/imagenes/3.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Meter',
@@ -60,7 +60,7 @@ export const ofertas = [
         'id': 4,
         'titulo': 'Mis Neuronas',
         'descripcion': 'Falta aire por todos lados',
-        'imagen': `/public/imagenes/4.jpeg`,
+        'imagen': 'src/imagenes/4.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Tiempo',
@@ -79,7 +79,7 @@ export const ofertas = [
         'id': 5,
         'titulo': 'Estoy jodido',
         'descripcion': 'Estoy listo, Senior',
-        'imagen': `/public/imagenes/5.jpeg`,
+        'imagen': 'src/imagenes/5.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Higado',
@@ -98,7 +98,7 @@ export const ofertas = [
         'id': 6,
         'titulo': 'Terapia barata',
         'descripcion': 'Gente que necesita terapia',
-        'imagen': `/public/imagenes/6.jpeg`,
+        'imagen': 'src/imagenes/6.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Lunes',
@@ -117,7 +117,7 @@ export const ofertas = [
         'id': 7,
         'titulo': 'Sin calleras',
         'descripcion': 'Con huevos',
-        'imagen': `/public/imagenes/7.jpeg`,
+        'imagen': 'src/imagenes/7.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Huevos',
@@ -136,7 +136,7 @@ export const ofertas = [
         'id': 8,
         'titulo': 'No sé, Rick',
         'descripcion': 'Correr es de cobardes',
-        'imagen': `/public/imagenes/8.jpeg`,
+        'imagen': 'src/imagenes/8.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Cobardes',
@@ -155,7 +155,7 @@ export const ofertas = [
         'id': 9,
         'titulo': 'Prioridades',
         'descripcion': 'La vida es cuestión de prioridades',
-        'imagen': `/public/imagenes/9.jpeg`,
+        'imagen': 'src/imagenes/9.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Awita',
@@ -174,7 +174,7 @@ export const ofertas = [
         'id': 10,
         'titulo': 'Coach',
         'descripcion': 'Dame paciencia y no fuerza',
-        'imagen': `/public/imagenes/10.jpeg`,
+        'imagen': 'src/imagenes/10.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Higado',
@@ -193,7 +193,7 @@ export const ofertas = [
         'id': 11,
         'titulo': 'Sedentarismo',
         'descripcion': 'Never ever',
-        'imagen': `/public/imagenes/11.jpeg`,
+        'imagen': 'src/imagenes/11.jpeg',
         'enlace': 'https://www.google.es',
         'categoria': {
             'id': 'Instagram',

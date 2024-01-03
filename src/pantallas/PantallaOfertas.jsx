@@ -1,26 +1,34 @@
 import { OfertaCard } from "../ofertas/components/OfertaCard"
 import { ofertas } from "../ofertas/data/oferta"
 
-import { Box, Grid } from "@mui/material";
-// import Grid from '@mui/material/Grid';
+import { Box } from "@mui/material";
+import Grid from '@mui/material/Unstable_Grid2';
 
 export const PantallaOfertas = () => {
 
     return (
 
-        <Grid sx={{ flexGrow: 1 }} container spacing={2}>
-            
+        <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+
                 {
                     ofertas.map(oferta => (
-                        <OfertaCard
+
+                        <Grid xs={4}
                             key={oferta.id}
-                            {...oferta}
-                        />
+                        >
+
+                            <OfertaCard
+                                key={oferta.id}
+                                {...oferta}
+                            />
+
+                        </Grid>
                     ))
                 }
+
             </Grid>
-        
+        </Box>
         
     )
-
 }
