@@ -1,4 +1,4 @@
-
+import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { Card, CardActions, CardContent, CardMedia, Chip, Button, Stack, Typography } from '@mui/material/';
 
 export const OfertaCard = ({ id, titulo, descripcion, imagen, enlace, categoria, localizaciones, tags }) => {
@@ -48,21 +48,21 @@ export const OfertaCard = ({ id, titulo, descripcion, imagen, enlace, categoria,
         <Typography variant="body2" noWrap gutterBottom sx={{ mt: "auto" }} component={"div"}>
           {
             tags.map((tag, i) =>
-              <Chip key={i} size="small" label={`#${tag.titulo}`} color="primary" />)
+              <Chip key={i} size="small" label={`#${tag.titulo}`} variant="outlined" />)
           }
         </Typography>
 
         <Typography variant="body2" noWrap gutterBottom sx={{ mt: "auto", mb: "auto" }} component={"div"}>
           {
             localizaciones.map((localizacion, i) =>
-              <Chip key={i} size="small" label={`#${localizacion?.titulo}`} color="primary" />)
+              <Chip key={i} size="small" label={`#${localizacion?.titulo}`} variant="outlined" />)
           }
         </Typography>
 
       </CardContent>
 
       <CardActions sx={{ mt: 5 }}>
-        <Button size="small">Enlace</Button>
+        <Button size="small" startIcon={<FileDownloadOutlinedIcon fontSize="small" />} />
       </CardActions>
 
     </Card>
